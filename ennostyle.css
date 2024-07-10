@@ -1,0 +1,491 @@
+/* General Properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Properties */
+
+/* ################################################################################################################################# */
+
+/* NAV BAR */
+.bg-white {
+    box-shadow: rgb(38, 57, 77) 0px 0px 30px 0px;
+    /* REMOVE THE SHADOW/ADJUST THE STYLE ACCORDINGLY DURING FINAL CHECKING */
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    color: grey;
+}
+
+.startbutton {
+    background-color: white;
+    color: grey;
+    border-color: grey;
+}
+
+.startbutton:hover {
+    background-color: #0341ed;
+    color: white;
+    border-color: #0341ed;
+}
+
+.hovv:hover {
+    color: #16df7e;
+}
+
+/* NAV BAR */
+
+/* ################################################################################################################################# */
+
+/* ABOUT */
+
+.about {
+    margin-top: 50px;
+}
+
+.get-btn {
+    box-shadow: rgba(10, 214, 95, 0.793) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.fa-circle-play {
+    font-size: 28px;
+    padding-top: 5px;
+}
+
+.watch:hover i {
+    color: rgba(10, 214, 95, 0.793);
+}
+
+@keyframes topbottom {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 28px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.motionpic {
+    position: relative;
+    animation-name: topbottom;
+    animation-duration: 6s;
+    transition: all linear;
+    animation-iteration-count: infinite;
+}
+
+/* ABOUT */
+
+/* ################################################################################################################################# */
+
+/* CARDS */
+
+.card {
+    background-color: #f9f9fa;
+    border: none;
+}
+
+.card:hover {
+    border: solid grey;
+}
+
+.card:hover h5 {
+    color: rgba(10, 214, 95, 0.793);
+}
+
+
+.card i {
+    font-size: 30px;
+    color: rgba(10, 214, 95, 0.793);
+}
+
+/* CARD2 */
+
+.italic {
+    font-style: italic;
+}
+
+.tick {
+    color: rgba(10, 214, 95, 0.793);
+
+}
+
+.card2 {
+    padding: 50px;
+}
+
+/* CARDS */
+
+/* COUNT */
+.num {
+    font-size: 48px;
+    display: block;
+    color: #16df7e;
+    font-weight: 700;
+}
+
+.num-letter {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* COUNT */
+
+/* ################################################################################################################################# */
+
+/* SERVICES */
+
+.service {
+    background-color: #f9f9fa;
+}
+
+.behind {
+    opacity: 0.2;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.front {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.serviceheadpara {
+    text-align: center;
+}
+
+.cardback {
+    background-color: white;
+    text-align: center;
+}
+
+/* SERVICES */
+
+/* ################################################################################################################################# */
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-color: white;
+}
+
+.portbehind {
+    opacity: 0.2;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.portfront {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.tablink :hover {
+    color: rgba(10, 214, 95, 0.793);
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9 {
+    position: relative;
+    width: 100%;
+}
+
+.pop {
+    display: none;
+    position: absolute;
+    bottom: 32px;
+    width: 92%;
+    margin: 0% 4%;
+}
+
+.img1:hover .pop,
+.img2:hover .pop,
+.img3:hover .pop,
+.img4:hover .pop,
+.img5:hover .pop,
+.img6:hover .pop,
+.img7:hover .pop,
+.img8:hover .pop,
+.img9:hover .pop {
+    display: block;
+    animation-name: popup;
+    animation-duration: 0.25s;
+    background-color: #f9f9fa99;
+    transition: all ease-in-out;
+}
+
+
+/* PORTFOLIO */
+
+
+/* ################################################################################################################################# */
+
+
+/* TESTIMONIALS */
+
+.testimonials1 {
+    background-color: #f9f9fa;
+    padding: 64px 0;
+}
+
+
+.testbehind {
+    opacity: 0.2;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+
+}
+
+.testfront {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+}
+
+.testheadpara {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+.testimonials2 {
+    background-color: #f9f9fa;
+    padding: 64px 0;
+}
+
+ /* .main-box{
+    width: 400px;
+}   */
+
+
+.wh-card {
+    background-color: white;
+    padding: 20px 20px 60px 20px;
+    border-radius: 8px;
+
+}
+
+.prof img {
+    border-radius: 50%;
+    width: 80px !important;
+    border: 4px solid white;
+}
+
+.prof {
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+
+.owl-dot span {
+    background-color: white !important;
+    border: 1px solid green !important;
+}
+
+.owl-dots .active span {
+    background-color: #16df7e !important;
+}
+
+
+/* TESTIMONIALS */
+
+/* ################################################################################################################################# */
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    background-color: #16df7e;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.cta {
+    color: white;
+}
+
+.call-btn {
+    background-color: #16df7e;
+    border-color: white;
+    border: 2px solid white;
+    font-weight: 400;
+    padding: 8px 28px;
+}
+
+.call-btn:hover {
+    background-color: #0341ed;
+    border: none;
+}
+
+/* CALL TO ACTION */
+
+/* ################################################################################################################################# */
+
+/* TEAM */
+
+.team {
+    background-color: #f9f9fa;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+/* TEAM */
+
+/* ################################################################################################################################# */
+
+/* CONTACT */
+
+.details {
+    background-color: #f9f9fa;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    padding: 16px;
+    height: 637px;
+}
+
+.iconholder i {
+    font-size: 24px;
+    color: #16df7e;
+}
+
+.iconholder {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.iconbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.detailbox {
+    padding: 15px 18px;
+}
+
+
+.btn-sent:hover {
+    background-color: #0341ed;
+    border: none;
+
+}
+
+
+/* CONTACT */
+
+/* ################################################################################################################################# */
+
+/* FOOTER */
+
+.footer {
+    background-color: #f9f9fa;
+}
+
+.sub {
+    width: 60%;
+}
+
+.subscribe {
+
+    margin-left: -10px;
+    border-radius: 0 4px 4px 0 !important;
+
+}
+
+
+.iconset2{
+    padding: 30px;
+}
+
+.iconset2 i{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+.iconset2 i:hover{
+    background-color: #16df7e;
+}
+
+.copyright2 {
+    float: right;
+}
+
+.footer-bottom{
+    border-top: 1px solid #d9dce2;
+   
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.abstrap{
+    color: black;
+}
+
+.abstrap:hover{
+    color: #16df7e;
+}
+
+
+/* FOOTER */
+
+/* ################################################################################################################################# */
+
+/* ARROW */
+
+.arrow {
+    width: 35px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #16df7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+}
+
+.arrow i {
+    color: white;
+}
+
+
+/* ARROW */
